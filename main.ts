@@ -94,7 +94,6 @@ export default class CycleCheckboxes extends Plugin {
 		const end = editor.getCursor("to")
 		for (let i = start.line; i <= end.line; i++) {
 			const lineContents = editor.getLine(i);
-			console.log(i + ": " + lineContents)
 			const match = RegExp(this.prefixRegEx).exec(lineContents);
 			if (!match) {
 				console.log("no match for line " + i + ": " + lineContents);
