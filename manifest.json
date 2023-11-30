@@ -1,11 +1,10 @@
 {
-	"id": "sample-plugin",
-	"name": "Sample Plugin",
+	"id": "cycle-checkboxes",
+	"name": "Cycle Checkboxes",
 	"version": "1.0.0",
 	"minAppVersion": "0.15.0",
-	"description": "Demonstrates some of the capabilities of the Obsidian API.",
-	"author": "Obsidian",
-	"authorUrl": "https://obsidian.md",
-	"fundingUrl": "https://obsidian.md/pricing",
+	"description": "Cycles a wider range of checkboxes than the default command.",
+	"author": "Milli",
+	"authorUrl": "https://github.com/martin-Milbradt",
 	"isDesktopOnly": false
 }
