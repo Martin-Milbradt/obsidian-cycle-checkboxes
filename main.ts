@@ -150,7 +150,7 @@ class CycleSettingsTab extends PluginSettingTab {
             );
 
 		new Setting(this.containerEl)
-            .setName("Enable no checkbox")
+            .setName("Enable removal")
             .setDesc("Adds removal of checkboxes to the cycle.")
             .addToggle(toggle =>
                 toggle
@@ -164,7 +164,7 @@ class CycleSettingsTab extends PluginSettingTab {
 
 		new Setting(containerEl)
 			.setName('Ckeckboxes to be cycled')
-			.setDesc('Enter the checkboxes you want to toggle in a comma-separated list. Note: The empty checkbox has to be included as well. Restart Obsidian after changing this setting.')
+			.setDesc('Enter the checkboxes you want to toggle in a comma-separated list. Note: The empty checkbox has to be included as well.')
 			.addTextArea(text => {
                 const onChange = async (value: string) => {
                     const list = value.split(',').map((v) => v.trim() || ' ');
