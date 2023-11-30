@@ -163,7 +163,7 @@ class CycleSettingsTab extends PluginSettingTab {
             );
 
 		new Setting(containerEl)
-			.setName('Ckeckboxes to be cycled')
+			.setName('Checkboxes to be cycled')
 			.setDesc('Enter the checkboxes you want to toggle in a comma-separated list. Note: The empty checkbox has to be included as well.')
 			.addTextArea(text => {
                 const onChange = async (value: string) => {
