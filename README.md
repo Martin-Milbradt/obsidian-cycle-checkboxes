@@ -2,7 +2,17 @@
 
 This is a plugin for Obsidian (https://obsidian.md).
 
-It has more functionality than the basic functions `Toggle checkbox status` and `Cycle bullet/checkbox`. It allows you to define a custom list of checkboxes to be cycled and also to cycle backwards.
+It offers two configurable commands `Cycle forward` and `Cycle backward`, that offer more functionality than the basic functions `Toggle checkbox status` and `Cycle bullet/checkbox`.
+
+## Configuration
+
+List all checkbox "fillings" you want in your rotation and if you want the basic bullet point and "no checkbox".
+
+![image](https://github.com/Martin-Milbradt/obsidian-cycle-checkboxes/assets/61841994/79e74f7f-9b27-43ef-a7f5-c711d7209497)
+
+## Note
+
+This plugin makes most sense in combination with CSS that beautifies your checkboxes, such as the [Minimal Checklists](https://minimal.guide/checklists).
 
 ## How to use
 
