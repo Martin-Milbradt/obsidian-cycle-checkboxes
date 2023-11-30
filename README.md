@@ -2,7 +2,7 @@
 
 This is a plugin for Obsidian (https://obsidian.md).
 
-It has more functionality than the basic functions `Toggle checkbox status` and `Cycle bullet/checkbox`. It allows you to define a custom list of checkboxes to be cycled and also to cylcle backwards.
+It has more functionality than the basic functions `Toggle checkbox status` and `Cycle bullet/checkbox`. It allows you to define a custom list of checkboxes to be cycled and also to cycle backwards.
 
 ## How to use
 
@@ -13,4 +13,4 @@ It has more functionality than the basic functions `Toggle checkbox status` and 
 
 ## Manually installing the plugin
 
-- Copy over `main.js`, `styles.css`, `manifest.json` to your vault `VaultFolder/.obsidian/plugins/your-plugin-id/`.
+- Copy over `main.js`, `styles.css`, `manifest.json` to your vault `VaultFolder/.obsidian/plugins/obsidian-cycle-checkboxes/`.
