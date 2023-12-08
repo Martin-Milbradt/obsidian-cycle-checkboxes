@@ -78,14 +78,12 @@ export default class CycleCheckboxes extends Plugin {
 		if (this.settings.reload) {
 			// Create variables for prefix matching
 			this.prefixes = [...this.settings.fillings.map(e => `- [${e}] `)];
-			let regExPart = this.settings.fillings.map(e => `- \\[\\${e}\\] `).join("|");
+			const regExPart = this.settings.fillings.map(e => `- \\[\\${e}\\] `).join("|");
 			if (this.settings.includeDash) {
 				this.prefixes.push("- ");
-				regExPart += "|- ";
 			}
 			if (this.settings.includeEmpty) {
 				this.prefixes.push("");
-				regExPart += "|";
 			}
 			this.prefixRegEx = `^(\\s*)(${regExPart}|- \\[.\\]|- |)(.*)$`;
 			this.settings.reload = false;
